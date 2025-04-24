@@ -47,6 +47,22 @@ nav a {
 nav a:hover{
     color: #a0522d;
 }
+body {
+    background-color: #dfe0cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+}
+.social-icons a {
+    color: rgba(51, 51, 51, 0.171);
+    text-decoration: none;
+}
 
 
 
