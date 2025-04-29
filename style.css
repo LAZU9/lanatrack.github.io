@@ -64,9 +64,37 @@ body {
     text-decoration: none;
 }
 
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    padding: 20px;
+  }
 
+  #fechas {
+    display: none; 
+    margin-top: 20px;
+  }
 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
+  li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+ 
 
 
 
