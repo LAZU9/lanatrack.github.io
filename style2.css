@@ -1,0 +1,39 @@
+.info1 th{
+    background-color: #d5f5fc;
+    border:#9cb1a7;
+    border-style: double;
+  }
+  .info1 td{
+    background-color: #81998f;
+    border:#49644c8f;
+  border-style: double;
+}
+.info2 th{
+  background-color: #478bca;
+  border: hsla(241, 42%, 40%, 0.561);
+  border-style: double;
+
+}   
+.info2 td{
+  background-color:#478bca;
+  border:hsla(241, 42%, 40%, 0.561);
+  border-style: double;
+}
+#listanav{
+background-color: #cccccc;
+list-style: none;
+width: 150%;
+position: absolute;
+top: 0;
+}
+
+#listanav a{
+text-decoration: none;
+color: #cf7e14;
+
+}
+#listanav li{
+  display: inline-block;
+  padding: 80px;
+}
+
