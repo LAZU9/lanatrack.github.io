@@ -29,6 +29,7 @@ body{
 .context{
     text-align: left;
     padding: 20px;
+
 }
  h1{
     font-weight: 300;
@@ -52,8 +53,7 @@ body {
   display: flex;
   height: 100vh;
   align-items: center;
- 
-}
+ }
 .social-icons {
     display: flex;
     gap: 20px;
@@ -90,7 +90,7 @@ body {
   }
 
   a {
-    color: blue;
+    color: rgb(52, 52, 73);
     text-decoration: none;
   }
 
@@ -104,6 +104,8 @@ body {
     background: #f0f0f0;
     text-align: center;
     padding: 50px;
+    display: flex;
+    flex-direction: row;
   }
 
   a {
@@ -137,35 +139,37 @@ body {
     margin: 10% auto;
     padding: 20px;
     width: 60%;
-    border-radius: 10px;
-  }
-
-  .close {
-    float: right;
-    text-decoration: none;
-    font-size: 20px;
-    color: red;
-  }
-
-  .dates {
-    text-align: left;
-    margin-top: 20px;
-  }
-  
-#listanav{
-background-color: #cccccc;
-list-style: none;
-width: 150%;
-position: absolute;
-top: 0;
+    border-radius: 10px;}
+#listanav {
+  display: flex;
+  flex-direction: row;
+  background-color: #cccccc;
+  list-style: none;
+  width: 100%;
+  padding: 2%;
+  margin: 0;
+  position: fixed;    /* Fija la barra */
+  top: 0;             /* Arriba de la página */
+  left: 0;            /* Pegada al borde izquierdo */
+  z-index: 1000;      /* Encima de otros elementos */
+  justify-content: center;
+  align-items: center;
 }
-
-#listanav a{
-text-decoration: none;
-color: #cf7e14;
-
-}
-#listanav li{
+#listanav li {
   display: inline-block;
-  padding: 80px;
+  padding: 20px 40px;
+}
+
+#listanav a {
+  text-decoration: none;
+  color: #a8bea1;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+  padding: 10px 20px;
+}
+
+#listanav a:hover {
+  background: #c9b9a4;
+  color: #fff;
 }
