@@ -1,0 +1,111 @@
+
+@font-face {
+  font-family: "lanafuente";
+  src: url("fonts/BebasNeue-Regular.ttf");
+}
+  a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+
+  .popup {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    transition: all 0.3s;
+  }
+
+  .popup:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup-content {
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;}
+
+#listanav {
+  display: flex;
+  flex-direction: row;
+  background-color: #bbaaa0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  position: fixed;    /* Fija la barra */
+  top: 0;             /* Arriba de la página */
+  left: 0;            /* Pegada al borde izquierdo */
+  z-index: 1000;      /* Encima de otros elementos */
+  justify-content: center;
+  align-items: center;
+}
+#listanav li {
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+#listanav a {
+  text-decoration: none;
+  color: #8a5c47;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+  padding: 10px 20px;
+}
+
+#listanav a:hover {
+  background: #c9b9a4;
+  color: #fff;
+}
+
+body{
+  font-family: 'lanafuente', Times, serif;
+  background: #fff8ef;
+  color: #000;
+  padding: 40px;
+  margin:auto;
+  border: 1px solid #ccc;
+  
+}
+h1{
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 4px;
+ margin-bottom: 10px;
+}
+h2{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0;
+
+}
+.main-image img{
+  text-align: center;
+  margin: 30px 0;
+}
+.main-image img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+
+}
+.section{
+    font-size: 20px 0;
+
+}
+.sidebar img{
+width: 48%;
+border: 1px solid  #ccc ;
+
+}
