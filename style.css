@@ -11,7 +11,7 @@ body{
     justify-content: center;
 
   } 
-.container{
+.contenedor{
     text-align: center;
     position: relative;
     max-width: 1000px;
@@ -24,7 +24,7 @@ body{
     float: right;
     margin-left: 20px;
     filter: drop-shadow(0 0 1000px rgba(0,0,0,0.2));
-}
+   }
 
 .context{
     text-align: left;
@@ -54,12 +54,12 @@ body {
   height: 100vh;
   align-items: center;
  }
-.social-icons {
+.rede.sociales {
     display: flex;
     gap: 20px;
     font-size: 2rem;
 }
-.social-icons a {
+.redes-sociales a {
     color: rgba(51, 51, 51, 0.171);
     text-decoration: none;
 
