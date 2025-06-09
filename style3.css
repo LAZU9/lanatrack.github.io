@@ -50,6 +50,12 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  #listanav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #listanav li {
   display: inline-block;
   padding: 20px 40px;
@@ -99,12 +105,18 @@ h2 {
 .main-ioage  img {
   text-align: center;
   margin: 30px 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
 }
 
 .main-image img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
@@ -158,9 +170,18 @@ h2 {
   .imagenes-laterales {
     flex-direction: column;
     gap: 16px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
   }
   .imagenes-laterales img {
     width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   }
   h1 {
     font-size: 32px;
